@@ -1,0 +1,10 @@
+@import "./sass/variables";
+@import "./sass/mixins";
+@import "./sass/layout";
+
+.App {
+  max-width: 100vw;
+  height: 100vh;
+  background-color: #eaecef;
+  font-family: $primary_font;
+}

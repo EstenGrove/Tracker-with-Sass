@@ -1,0 +1,89 @@
+@import "../sass/mixins";
+
+.CalendarHeading {
+  width: 100%;
+  height: 8rem;
+}
+
+.headings {
+  width: 100%;
+  height: 100%;
+  @include base_flex;
+  -ms-flex-preferred-size: 1;
+  flex-basis: 1;
+
+  &_category {
+    width: 12rem;
+    height: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    padding: 0.7rem;
+    text-align: center;
+    padding-top: 2rem;
+
+    &--Text {
+      width: 100%;
+      height: 100%;
+      font-size: 2rem;
+      font-weight: 700;
+      opacity: 0.7;
+    }
+  }
+
+  &_date {
+    width: 15rem;
+    font-size: 3rem;
+    font-weight: 600;
+    opacity: 0.6;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    @include center_flex_col;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+
+  &_day {
+    font-size: 1.6rem;
+    font-weight: 500;
+    opacity: 0.6;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .headings {
+    &_category--Text {
+      font-size: 1.4rem;
+    }
+
+    &_date {
+      font-size: 1.8rem;
+    }
+    &_day {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .headings {
+    width: 10rem;
+    padding: 0.65rem;
+
+    &_category {
+      font-size: 1.3rem;
+    }
+
+    &_category--Text {
+      font-size: 1.3rem;
+      opacity: 0.6;
+    }
+
+    &_date {
+      font-size: 2.2rem;
+    }
+    &_day {
+      font-size: 1.1rem;
+    }
+  }
+}
