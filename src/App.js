@@ -2,6 +2,7 @@ import React from "react";
 import { ActiveProvider, StateProvider } from "./state/StateContext";
 import "./App.scss";
 import Main from "./Main";
+import Week from "./components/Week";
 import Calendar from "./components/Calendar";
 
 function App() {
@@ -9,9 +10,13 @@ function App() {
     <>
       <StateProvider>
         <div className="App">
-          <Main>
-            <Calendar />
-          </Main>
+          <ActiveProvider>
+            <Main>
+              <Calendar>
+                <Week />
+              </Calendar>
+            </Main>
+          </ActiveProvider>
         </div>
       </StateProvider>
     </>

@@ -6,7 +6,7 @@ const CalendarHeading = () => {
     <div className={styles.CalendarHeading}>
       <section className={styles.headings}>
         <span className={styles["headings_category"]}>
-          <span className={styles["headings_category--Text"]}>Category</span>
+          <span className={styles["headings_category__Text"]}>Category</span>
         </span>
 
         <div className={styles["headings_date"]}>

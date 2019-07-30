@@ -71,6 +71,8 @@ const Week = () => {
       <Day day="Friday" modalHandler={modalHandler} />
       <Day day="Saturday" modalHandler={modalHandler} />
     </div>
+
+    // Modal
   );
 };
 
