@@ -17,6 +17,9 @@
   -ms-flex-negative: 1;
   flex-shrink: 1;
   font-family: $primary_font;
+  border: 1px solid #9999;
+  border-bottom: none;
+  border-radius: 0.5rem;
 
   &_title {
     font-size: 1.4rem;

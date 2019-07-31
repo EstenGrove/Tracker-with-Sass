@@ -2,6 +2,7 @@ import React, { useContext, useState, useRef } from "react";
 import styles from "../css/Week.module.scss";
 import ADL from "./ADL";
 import Day from "./Day";
+import OtherTasksSection from "./OtherTasksSection";
 import { StateContext, ActiveContext } from "../state/StateContext";
 import { useFormController } from "../utils/useFormController";
 
@@ -61,16 +62,19 @@ const Week = () => {
     return setIsOpen(!isOpen);
   };
   return (
-    <div className={styles.Week}>
-      <ADL />
-      <Day day="Sunday" modalHandler={modalHandler} />
-      <Day day="Monday" modalHandler={modalHandler} />
-      <Day day="Tuesday" modalHandler={modalHandler} />
-      <Day day="Wednesday" modalHandler={modalHandler} />
-      <Day day="Thursday" modalHandler={modalHandler} />
-      <Day day="Friday" modalHandler={modalHandler} />
-      <Day day="Saturday" modalHandler={modalHandler} />
-    </div>
+    <>
+      <div className={styles.Week}>
+        <ADL />
+        <Day day="Sunday" modalHandler={modalHandler} />
+        <Day day="Monday" modalHandler={modalHandler} />
+        <Day day="Tuesday" modalHandler={modalHandler} />
+        <Day day="Wednesday" modalHandler={modalHandler} />
+        <Day day="Thursday" modalHandler={modalHandler} />
+        <Day day="Friday" modalHandler={modalHandler} />
+        <Day day="Saturday" modalHandler={modalHandler} />
+      </div>
+      <OtherTasksSection />
+    </>
 
     // Modal
   );
