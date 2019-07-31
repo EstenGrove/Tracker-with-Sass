@@ -6,6 +6,7 @@ const Shift = ({ status, shift, day, ADL, openModal, id }) => {
   const { state, dispatch } = useContext(StateContext);
   const { active, setActive } = useContext(ActiveContext);
 
+  console.log(shift.status);
   return (
     <span
       className={

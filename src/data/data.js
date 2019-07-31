@@ -127,7 +127,7 @@ export const endOfMonth = new Date(2019, 6, getDaysInMonth(beginOfMonth));
 // test data for marking and testing task statuses
 export const tasks = [
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "Jul 01 2019",
     name: "Assist w/ Brushing Hair",
     reassess: false,
@@ -141,11 +141,11 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
-    date: "Jul 02 2019",
+    status: "INCOMPLETE",
+    date: "Jul 01 2019",
     name: "Brush teeth",
     reassess: false,
-    dateShort: `2nd`,
+    dateShort: `1st`,
     id: "0bof5 ",
     notes: null,
     signature: null,
@@ -155,11 +155,11 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
-    date: "Jul 03 2019",
+    status: "INCOMPLETE",
+    date: "Jul 01 2019",
     name: "Shower Assistance",
     reassess: false,
-    dateShort: `3rd`,
+    dateShort: `1st`,
     id: "o0el0",
     notes: null,
     signature: null,
@@ -169,11 +169,11 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
-    date: "Jul 04 2019",
-    name: "Assist w/ Dressing",
+    status: "INCOMPLETE",
+    date: "Jul 01 2019",
+    name: "Wash feet",
     reassess: false,
-    dateShort: `4th`,
+    dateShort: `1st`,
     id: "pf2do",
     notes: null,
     signature: null,
@@ -183,11 +183,11 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
-    date: "Jul 05 2019",
-    name: "Assist w/ Dressing",
+    status: "INCOMPLETE",
+    date: "Jul 01 2019",
+    name: "Clean behind ears",
     reassess: false,
-    dateShort: `5th`,
+    dateShort: `1st`,
     id: "u426t",
     notes: null,
     signature: null,
@@ -197,7 +197,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "Jul 06 2019",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -211,11 +211,11 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
-    date: "Jul 07 2019",
+    status: "INCOMPLETE",
+    date: "Jul 01 2019",
     name: "Assist w/ Dressing",
     reassess: false,
-    dateShort: `7th`,
+    dateShort: `1st`,
     id: "v4jrs",
     notes: null,
     signature: null,
@@ -225,11 +225,11 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
-    date: "Jul 08 2019",
+    status: "INCOMPLETE",
+    date: "Jul 01 2019",
     name: "Assist w/ Dressing",
     reassess: false,
-    dateShort: `8th`,
+    dateShort: `1st`,
     id: "l4f0e",
     notes: null,
     signature: null,
@@ -239,7 +239,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "Jul 09 2019",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -253,7 +253,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -267,7 +267,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -281,7 +281,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -295,7 +295,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -309,7 +309,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -323,7 +323,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -337,7 +337,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -351,7 +351,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -365,7 +365,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -379,7 +379,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -393,7 +393,7 @@ export const tasks = [
     ADL: "Health"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -407,7 +407,7 @@ export const tasks = [
     ADL: "Health"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -422,7 +422,7 @@ export const tasks = [
   },
 
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -436,7 +436,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -450,7 +450,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -464,7 +464,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -478,7 +478,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -492,7 +492,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -506,7 +506,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -520,7 +520,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -534,7 +534,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -548,7 +548,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -562,7 +562,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -576,7 +576,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -590,7 +590,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -604,7 +604,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -618,7 +618,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -632,7 +632,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -646,7 +646,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -660,7 +660,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -674,7 +674,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -688,7 +688,7 @@ export const tasks = [
     ADL: "Health"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -702,7 +702,7 @@ export const tasks = [
     ADL: "Health"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -712,307 +712,307 @@ export const tasks = [
     signature: null,
     timestamp: null,
     day: "Tuesday",
-    shift: "N",
-    ADL: "Health"
-  },
-
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "A",
-    ADL: "Grooming"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "P",
-    ADL: "Grooming"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "N",
-    ADL: "Grooming"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "A",
-    ADL: "Bathing"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "P",
-    ADL: "Bathing"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "N",
-    ADL: "Bathing"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "A",
-    ADL: "Toileting"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "P",
-    ADL: "Toileting"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "N",
-    ADL: "Toileting"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "A",
-    ADL: "Laundry"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "P",
-    ADL: "Laundry"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "N",
-    ADL: "Laundry"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "A",
-    ADL: "Meals"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "P",
-    ADL: "Meals"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "N",
-    ADL: "Meals"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "A",
-    ADL: "Meds"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "P",
-    ADL: "Meds"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "N",
-    ADL: "Meds"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "A",
-    ADL: "Health"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
-    shift: "P",
-    ADL: "Health"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Wednesday",
     shift: "N",
     ADL: "Health"
   },
 
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "A",
+    ADL: "Grooming"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "P",
+    ADL: "Grooming"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "N",
+    ADL: "Grooming"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "A",
+    ADL: "Bathing"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "P",
+    ADL: "Bathing"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "N",
+    ADL: "Bathing"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "A",
+    ADL: "Toileting"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "P",
+    ADL: "Toileting"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "N",
+    ADL: "Toileting"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "A",
+    ADL: "Laundry"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "P",
+    ADL: "Laundry"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "N",
+    ADL: "Laundry"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "A",
+    ADL: "Meals"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "P",
+    ADL: "Meals"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "N",
+    ADL: "Meals"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "A",
+    ADL: "Meds"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "P",
+    ADL: "Meds"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "N",
+    ADL: "Meds"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "A",
+    ADL: "Health"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "P",
+    ADL: "Health"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Wednesday",
+    shift: "N",
+    ADL: "Health"
+  },
+
+  {
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1026,7 +1026,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1040,7 +1040,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1054,7 +1054,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1068,7 +1068,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1082,7 +1082,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1096,7 +1096,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1110,7 +1110,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1124,7 +1124,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1138,7 +1138,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1152,7 +1152,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1166,7 +1166,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1180,7 +1180,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1194,7 +1194,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1208,7 +1208,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1222,7 +1222,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1236,7 +1236,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1250,7 +1250,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1264,7 +1264,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1278,7 +1278,7 @@ export const tasks = [
     ADL: "Health"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1292,7 +1292,7 @@ export const tasks = [
     ADL: "Health"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1307,7 +1307,7 @@ export const tasks = [
   },
 
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1321,7 +1321,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1335,7 +1335,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1349,7 +1349,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1363,7 +1363,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1377,7 +1377,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1391,7 +1391,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1405,7 +1405,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1419,7 +1419,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1433,7 +1433,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1447,7 +1447,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1461,7 +1461,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1475,7 +1475,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1489,7 +1489,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1503,7 +1503,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1517,7 +1517,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1531,7 +1531,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1545,7 +1545,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1559,7 +1559,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1573,7 +1573,7 @@ export const tasks = [
     ADL: "Health"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1587,7 +1587,7 @@ export const tasks = [
     ADL: "Health"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1597,307 +1597,307 @@ export const tasks = [
     signature: null,
     timestamp: null,
     day: "Friday",
-    shift: "N",
-    ADL: "Health"
-  },
-
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "A",
-    ADL: "Grooming"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "P",
-    ADL: "Grooming"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "N",
-    ADL: "Grooming"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "A",
-    ADL: "Bathing"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "P",
-    ADL: "Bathing"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "N",
-    ADL: "Bathing"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "A",
-    ADL: "Toileting"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "P",
-    ADL: "Toileting"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "N",
-    ADL: "Toileting"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "A",
-    ADL: "Laundry"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "P",
-    ADL: "Laundry"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "N",
-    ADL: "Laundry"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "A",
-    ADL: "Meals"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "P",
-    ADL: "Meals"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "N",
-    ADL: "Meals"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "A",
-    ADL: "Meds"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "P",
-    ADL: "Meds"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "N",
-    ADL: "Meds"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "A",
-    ADL: "Health"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
-    shift: "P",
-    ADL: "Health"
-  },
-  {
-    status: "NOT-COMPLETE",
-    date: "12th",
-    name: "Assist w/ Dressing",
-    reassess: false,
-    dateShort: ``,
-    id: "",
-    notes: null,
-    signature: null,
-    timestamp: null,
-    day: "Saturday",
     shift: "N",
     ADL: "Health"
   },
 
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "A",
+    ADL: "Grooming"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "P",
+    ADL: "Grooming"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "N",
+    ADL: "Grooming"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "A",
+    ADL: "Bathing"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "P",
+    ADL: "Bathing"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "N",
+    ADL: "Bathing"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "A",
+    ADL: "Toileting"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "P",
+    ADL: "Toileting"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "N",
+    ADL: "Toileting"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "A",
+    ADL: "Laundry"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "P",
+    ADL: "Laundry"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "N",
+    ADL: "Laundry"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "A",
+    ADL: "Meals"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "P",
+    ADL: "Meals"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "N",
+    ADL: "Meals"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "A",
+    ADL: "Meds"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "P",
+    ADL: "Meds"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "N",
+    ADL: "Meds"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "A",
+    ADL: "Health"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "P",
+    ADL: "Health"
+  },
+  {
+    status: "INCOMPLETE",
+    date: "12th",
+    name: "Assist w/ Dressing",
+    reassess: false,
+    dateShort: ``,
+    id: "",
+    notes: null,
+    signature: null,
+    timestamp: null,
+    day: "Saturday",
+    shift: "N",
+    ADL: "Health"
+  },
+
+  {
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1911,7 +1911,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1925,7 +1925,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1939,7 +1939,7 @@ export const tasks = [
     ADL: "Grooming"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1953,7 +1953,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1967,7 +1967,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1981,7 +1981,7 @@ export const tasks = [
     ADL: "Bathing"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -1995,7 +1995,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2009,7 +2009,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2023,7 +2023,7 @@ export const tasks = [
     ADL: "Toileting"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2037,7 +2037,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2051,7 +2051,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2065,7 +2065,7 @@ export const tasks = [
     ADL: "Laundry"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2079,7 +2079,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2093,7 +2093,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2107,7 +2107,7 @@ export const tasks = [
     ADL: "Meals"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2121,7 +2121,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2135,7 +2135,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2149,7 +2149,7 @@ export const tasks = [
     ADL: "Meds"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2163,7 +2163,7 @@ export const tasks = [
     ADL: "Health"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
@@ -2177,7 +2177,7 @@ export const tasks = [
     ADL: "Health"
   },
   {
-    status: "NOT-COMPLETE",
+    status: "INCOMPLETE",
     date: "12th",
     name: "Assist w/ Dressing",
     reassess: false,
