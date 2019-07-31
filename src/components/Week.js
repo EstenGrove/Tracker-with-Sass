@@ -33,12 +33,6 @@ const Week = () => {
 
     const { STATUS, SIGNATURE = null, REASSESS = false } = inputs;
 
-    console.group("%cMODAL ENTRIES", "color: #5c75ea;font-size: 22px;");
-    console.log(STATUS);
-    console.log(SIGNATURE);
-    console.log(REASSESS);
-    console.groupEnd();
-
     // DISPATCH FOR NEW STATE CHANGE
     dispatch({
       type: `${STATUS}`,
@@ -55,16 +49,8 @@ const Week = () => {
   };
 
   // handles opening the modal
-  const modalHandler = e => {
-    console.group(
-      "%cClick Event Details",
-      "color: #5c75ea; background-color: #eaecef;font-size: 20px;"
-    );
-    console.log(e.target);
-    console.log(e.target.getAttribute("data-day"));
-    console.log(e.target.getAttribute("data-adl"));
-    console.log(e.target.getAttribute("data-shift"));
-    console.groupEnd();
+  const modalHandler = (e, shift) => {
+    console.log(e, shift);
 
     return setIsOpen(!isOpen);
   };

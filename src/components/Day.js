@@ -38,7 +38,7 @@ const Day = ({ day, modalHandler }) => {
               ADL={item.ADL}
               day={item.day}
               shift={item.shift}
-              openModal={modalHandler}
+              openModal={() => modalHandler(item)}
               index={item.id}
               status={item.status}
             />
@@ -50,7 +50,7 @@ const Day = ({ day, modalHandler }) => {
               ADL={item.ADL}
               day={item.day}
               shift={item.shift}
-              openModal={modalHandler}
+              openModal={() => modalHandler(item)}
               index={item.id}
               status={item.status}
             />
@@ -62,7 +62,7 @@ const Day = ({ day, modalHandler }) => {
               ADL={item.ADL}
               day={item.day}
               shift={item.shift}
-              openModal={modalHandler}
+              openModal={() => modalHandler(item)}
               index={item.id}
               status={item.status}
             />
@@ -74,7 +74,7 @@ const Day = ({ day, modalHandler }) => {
               ADL={item.ADL}
               day={item.day}
               shift={item.shift}
-              openModal={modalHandler}
+              openModal={() => modalHandler(item)}
               index={item.id}
             />
           ))}
@@ -85,7 +85,7 @@ const Day = ({ day, modalHandler }) => {
               ADL={item.ADL}
               day={item.day}
               shift={item.shift}
-              openModal={modalHandler}
+              openModal={() => modalHandler(item)}
               index={item.id}
             />
           ))}
@@ -96,7 +96,7 @@ const Day = ({ day, modalHandler }) => {
               ADL={item.ADL}
               day={item.day}
               shift={item.shift}
-              openModal={modalHandler}
+              openModal={() => modalHandler(item)}
               index={item.id}
             />
           ))}
@@ -107,7 +107,7 @@ const Day = ({ day, modalHandler }) => {
               ADL={item.ADL}
               day={item.day}
               shift={item.shift}
-              openModal={modalHandler}
+              openModal={() => modalHandler(item)}
               index={item.id}
             />
           ))}

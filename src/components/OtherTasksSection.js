@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../css/OtherTasksSection.module.scss";
+import Dropdown from "./Dropdown";
 
 const OtherTasksSection = ({ name1, name2, id1, id2, handleSubmit }) => {
   return (
@@ -35,11 +36,26 @@ const OtherTasksSection = ({ name1, name2, id1, id2, handleSubmit }) => {
         {/* RIGHT SIDE FORM */}
         <div className={styles.Other_right}>
           <h5 className={styles.Other_right_subheading}>ADL</h5>
-          <input
+          <Dropdown
             type="text"
-            name="adl"
-            id="adl"
+            name="other-adl"
+            id="other-adl"
+            options={[
+              "Grooming",
+              "Mental",
+              "Health",
+              "Shower",
+              "Meds",
+              "Dressing",
+              "Bathing",
+              "Laundry",
+              "Toileting",
+              "Meals"
+            ]}
             className={styles.Other_right_input}
+            customWidth="100%"
+            hideLabel={true}
+            borderCol="#c9c7cb"
           />
           <h5 className={styles.Other_right_subheading}>Priority</h5>
           <input
