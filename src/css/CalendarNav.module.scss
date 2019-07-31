@@ -6,6 +6,9 @@
   height: 7rem;
   border-top: 2px solid #ccc;
   border-bottom: 2px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 0.5rem;
 
   &_list {
     width: 100%;

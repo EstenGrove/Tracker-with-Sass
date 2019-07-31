@@ -3,10 +3,12 @@
 .TextInput {
   &_label {
     display: block;
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 1.7rem;
+    font-weight: 400;
     font-family: $primary_font;
+    opacity: 0.7;
     margin-right: 1rem;
+    margin-bottom: 0.5rem;
     -webkit-filter: blur(0.000001px);
     filter: blur(0.000001px);
   }

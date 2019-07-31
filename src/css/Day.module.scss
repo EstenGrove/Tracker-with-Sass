@@ -12,8 +12,8 @@
     height: 10rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    border: 1px solid #aaa;
-    border-bottom: 2px solid #aaa;
+    border: 1px solid hsl(0, 0%, 87%);
+    border-bottom: 2px solid hsl(0, 0%, 87%);
     @include center_flex_col;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;

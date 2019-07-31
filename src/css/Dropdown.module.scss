@@ -1,0 +1,23 @@
+.dropdown {
+  width: auto;
+
+  & label {
+    font-size: 2rem;
+    margin-right: 1rem;
+    -webkit-filter: blur(0.000001px);
+    filter: blur(0.000001px);
+  }
+
+  &_input {
+    width: 63%;
+    height: 3rem;
+    padding-left: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    outline: none;
+    margin-bottom: 3rem;
+    border: 1px solid #5c75ea;
+    -webkit-filter: blur(0.000001px);
+    filter: blur(0.000001px);
+  }
+}

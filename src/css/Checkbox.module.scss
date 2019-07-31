@@ -1,10 +1,13 @@
+@import "../sass/mixins";
+
 .FancyCheckboxWrapper {
   position: relative;
   margin-bottom: 2rem;
+  @include flex_vertical_center;
 
   &_label {
     margin-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 
     &::before {
       width: 1.7rem;

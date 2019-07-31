@@ -1,10 +1,4 @@
-import {
-  format,
-  getDaysInMonth,
-  startOfWeek,
-  addDays,
-  addWeeks
-} from "date-fns";
+import { getDaysInMonth } from "date-fns";
 
 export const resDetails = {
   name: "Alex Carrisco",
