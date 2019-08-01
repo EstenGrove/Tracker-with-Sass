@@ -5,9 +5,9 @@ const CalendarHeading = () => {
   return (
     <div className={styles.CalendarHeading}>
       <section className={styles.headings}>
-        <span className={styles["headings_category"]}>
-          <span className={styles["headings_category__Text"]}>Category</span>
-        </span>
+        <div className={styles["headings_category"]}>
+          <h4 className={styles["headings_category__Text"]}>Category</h4>
+        </div>
 
         <div className={styles["headings_date"]}>
           1<span className={styles["headings_day"]}>Mon.</span>

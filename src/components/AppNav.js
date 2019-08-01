@@ -4,7 +4,7 @@ import { default as sprite } from "../assets/all.svg";
 import { default as nav } from "../assets/login.svg";
 import logo from "../assets/LOGO-ONLY-TITLE.png";
 
-const AppNav = () => {
+const AppNav = ({ activeUser }) => {
   console.log(sprite);
   return (
     <nav className={styles.Nav}>
@@ -18,6 +18,7 @@ const AppNav = () => {
         </li>
 
         <li className={`${styles.Nav_list_item} ${styles.user}`}>
+          <span className={styles.Nav_list_item_user}>{activeUser}</span>
           <svg className={styles.Nav_list_item_icon}>
             <use xlinkHref={`${sprite}#icon-person_outline`} />
           </svg>

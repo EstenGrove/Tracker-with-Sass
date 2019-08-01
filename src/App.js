@@ -14,7 +14,7 @@ function App() {
       <StateProvider>
         <div className="App">
           <ActiveProvider>
-            <AppNav />
+            <AppNav activeUser="Sara Forts" />
             <AppHeader />
             <Main>
               <CalendarContainer>
