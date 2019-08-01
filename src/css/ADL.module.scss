@@ -41,6 +41,11 @@
   }
 }
 
+@media screen and (max-width: 980px) {
+  .ADL {
+  }
+}
+
 @media screen and (max-width: 600px) {
   .ADL_title {
     font-size: 1.7rem;
@@ -49,6 +54,9 @@
 }
 @media screen and (max-width: 450px) {
   .container {
+    width: 10rem;
+  }
+  .ADL {
     width: 10rem;
   }
 
