@@ -3,7 +3,10 @@ import { ActiveProvider, StateProvider } from "./state/StateContext";
 import "./App.scss";
 import Main from "./Main";
 import Week from "./components/Week";
+import CalendarContainer from "./components/CalendarContainer";
 import Calendar from "./components/Calendar";
+import AppNav from "./components/AppNav";
+import AppHeader from "./components/AppHeader";
 
 function App() {
   return (
@@ -11,10 +14,14 @@ function App() {
       <StateProvider>
         <div className="App">
           <ActiveProvider>
+            <AppNav />
+            <AppHeader />
             <Main>
-              <Calendar>
-                <Week />
-              </Calendar>
+              <CalendarContainer>
+                <Calendar>
+                  <Week />
+                </Calendar>
+              </CalendarContainer>
             </Main>
           </ActiveProvider>
         </div>
