@@ -55,6 +55,7 @@
         &:hover {
           cursor: pointer;
           fill: $purple;
+          border-color: $purple;
         }
       }
       &_logout {
@@ -66,7 +67,7 @@
         }
       }
       &_user {
-        padding-top: 0.5rem;
+        padding-top: 0.7rem;
         padding-right: 0.2rem;
       }
     }

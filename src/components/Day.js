@@ -7,27 +7,32 @@ const Day = ({ day, modalHandler }) => {
   const { state, dispatch } = useContext(StateContext);
   const { active, setActive } = useContext(ActiveContext);
 
+console.log(state.length);
+
+
   const Grooming = state.filter(
-    (task, index) => task.ADL === "Grooming" && task.day === "Monday"
+    (task, index) => task.ADL === "Grooming" && task.day === "Mon"
   );
   const Bathing = state.filter(
-    (task, index) => task.ADL === "Bathing" && task.day === "Monday"
+    (task, index) => task.ADL === "Bathing" && task.day === "Mon"
   );
   const Toileting = state.filter(
-    (task, index) => task.ADL === "Toileting" && task.day === "Monday"
+    (task, index) => task.ADL === "Toileting" && task.day === "Mon"
   );
   const Laundry = state.filter(
-    (task, index) => task.ADL === "Laundry" && task.day === "Monday"
+    (task, index) => task.ADL === "Laundry" && task.day === "Mon"
   );
   const Meals = state.filter(
-    (task, index) => task.ADL === "Meals" && task.day === "Monday"
+    (task, index) => task.ADL === "Meals" && task.day === "Mon"
   );
   const Meds = state.filter(
-    (task, index) => task.ADL === "Meds" && task.day === "Monday"
+    (task, index) => task.ADL === "Meds" && task.day === "Mon"
   );
   const Health = state.filter(
-    (task, index) => task.ADL === "Health" && task.day === "Monday"
+    (task, index) => task.ADL === "Health" && task.day === "Mon"
   );
+
+  console.log(Grooming.length);
 
   return (
     <>

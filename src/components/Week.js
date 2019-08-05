@@ -54,17 +54,26 @@ const Week = () => {
 
     return setIsOpen(!isOpen);
   };
+
+  const days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ];
+
   return (
     <>
       <div className={styles.Week}>
         <ADL />
-        <Day day="Sunday" modalHandler={modalHandler} />
-        <Day day="Monday" modalHandler={modalHandler} />
-        <Day day="Tuesday" modalHandler={modalHandler} />
-        <Day day="Wednesday" modalHandler={modalHandler} />
-        <Day day="Thursday" modalHandler={modalHandler} />
-        <Day day="Friday" modalHandler={modalHandler} />
-        <Day day="Saturday" modalHandler={modalHandler} />
+        {days.map((day, index) => (
+          <Day day={day} modalHandler={modalHandler} />
+        
+        ))}
+
       </div>
       <hr style={{ marginTop: "3rem", opacity: ".6" }} />
       <OtherTasksSection />

@@ -1,5 +1,5 @@
 import React, { createContext, useReducer, useState, useEffect } from "react";
-import { tasks } from "../data/data";
+import { mockdata } from "../data/mockdata";
 
 export const StateContext = createContext({});
 export const ActiveContext = createContext();
@@ -50,7 +50,7 @@ const stateReducer = (state, action) => {
 };
 
 export const StateProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(stateReducer, [...tasks]);
+  const [state, dispatch] = useReducer(stateReducer, [...mockdata]);
 
   return (
     <StateContext.Provider value={{ state, dispatch }}>

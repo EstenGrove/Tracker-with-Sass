@@ -15,8 +15,8 @@
   overflow-y: scroll;
   background-color: #fff;
   border-radius: 1.5rem;
-  -webkit-box-shadow: $heavy_shadow;
-  box-shadow: $heavy_shadow;
+  -webkit-box-shadow: 6px 6px 42px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 42px -5px rgba(0, 0, 0, 0.75);
   z-index: 100;
 
   &_top {
