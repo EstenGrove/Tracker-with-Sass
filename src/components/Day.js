@@ -9,9 +9,8 @@ const Day = ({ day, modalHandler }) => {
 
 console.log(state.length);
 
-
   const Grooming = state.filter(
-    (task, index) => task.ADL === "Grooming" && task.day === "Mon"
+    (task, index) => (task.ADL === task.day) === "Mon"
   );
   const Bathing = state.filter(
     (task, index) => task.ADL === "Bathing" && task.day === "Mon"
@@ -32,7 +31,7 @@ console.log(state.length);
     (task, index) => task.ADL === "Health" && task.day === "Mon"
   );
 
-  console.log(Grooming.length);
+  console.log(Grooming);
 
   return (
     <>

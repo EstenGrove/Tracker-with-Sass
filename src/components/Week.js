@@ -65,13 +65,21 @@ const Week = () => {
     "Saturday"
   ];
 
+const Grooming = state.filter((item, index) => item.day === 'Grooming');
+const Bathing = state.filter((item, index) => item.day === 'Bathing');
+const Toileting = state.filter((item, index) => item.day === 'Toileting');
+const Laundry = state.filter((item, index) => item.day === 'Laundry');
+const Meals = state.filter((item, index) => item.day === 'Meals');
+const Meds = state.filter((item, index) => item.day === 'Meds');
+const Health = state.filter((item, index) => item.day === 'Health');
+
+console.log(Grooming);
   return (
     <>
       <div className={styles.Week}>
         <ADL />
-        {days.map((day, index) => (
-          <Day day={day} modalHandler={modalHandler} />
-        
+        {Grooming.map((item, index) => (
+          <Day day={item.day} modalHandler={modalHandler}/>
         ))}
 
       </div>
